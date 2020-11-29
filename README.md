@@ -1,7 +1,7 @@
 # PlantsVsZombies-Revamped
 Recreation of the famous game using JavaFX with custom graphics and features using Advanced OOP &amp; multithreading concepts.
 
-## Brief Desciption and Custom features
+### Brief Desciption and Custom features
 - As you all know, Plants Vs Zombies is game series in which the player has to protect the house from the attack of zombies by planting planting various types of plants in his backyard. The currency for producing more plants is either the sunflower plant and the randomly dropping sun on the backyard
 Different types of plants unlock at different levels and the thus difficulty also increases.
 

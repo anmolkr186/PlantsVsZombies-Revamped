@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<StackPane fx:id="stackpane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pvz.LevelScreenController">
+   <children>
+      <JFXButton fx:id="backbutton" layoutX="46.0" layoutY="511.0" onAction="#goback" opacity="0.0" prefHeight="56.0" prefWidth="147.0" />
+      <ImageView fitHeight="600.0" fitWidth="1406.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@level_screen.png" />
+         </image>
+      </ImageView>
+      <StackPane prefHeight="150.0" prefWidth="200.0" />
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <JFXButton fx:id="level5" layoutX="463.0" layoutY="343.0" onAction="#golevel5" opacity="0.0" prefHeight="144.0" prefWidth="254.0" />
+            <JFXButton fx:id="backbutton" layoutX="51.0" layoutY="514.0" onAction="#goback" opacity="0.0" prefHeight="56.0" prefWidth="139.0" />
+            <JFXButton fx:id="level1" layoutX="42.0" layoutY="161.0" onAction="#golevel1" opacity="0.0" prefHeight="144.0" prefWidth="254.0" text="Button" />
+            <JFXButton fx:id="level2" layoutX="330.0" layoutY="161.0" onAction="#golevel2" opacity="0.0" prefHeight="144.0" prefWidth="254.0" text="Button" />
+            <JFXButton fx:id="level3" layoutX="621.0" layoutY="161.0" onAction="#golevel3" opacity="0.0" prefHeight="144.0" prefWidth="254.0" />
+            <JFXButton fx:id="level4" layoutX="178.0" layoutY="343.0" onAction="#golevel4" opacity="0.0" prefHeight="144.0" prefWidth="254.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<StackPane fx:id="stackpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pvz.LawnController4">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="1400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@lawn.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" translateX="530.0" translateY="-270.0">
+         <image>
+            <Image url="@menu.jpeg" />
+         </image>
+      </ImageView>
+      <Pane fx:id="pane" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="mainmover5" fitHeight="237.0" fitWidth="200.0" layoutX="212.0" layoutY="51.0" onMouseClicked="#translatemover5" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+               <image>
+                  <Image url="@Lawnmower.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mainmover2" fitHeight="150.0" fitWidth="200.0" layoutX="206.0" layoutY="348.0" onMouseClicked="#translatemover2" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+               <image>
+                  <Image url="@Lawnmower.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mainmover3" fitHeight="150.0" fitWidth="200.0" layoutX="212.0" layoutY="252.0" onMouseClicked="#translatemover3" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+               <image>
+                  <Image url="@Lawnmower.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mainmover4" fitHeight="150.0" fitWidth="200.0" layoutX="212.0" layoutY="153.0" onMouseClicked="#translatemover4" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+               <image>
+                  <Image url="@Lawnmower.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mainmover" fitHeight="150.0" fitWidth="200.0" layoutX="206.0" layoutY="447.0" onMouseClicked="#translatemover" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+               <image>
+                  <Image url="@Lawnmower.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="menubutton" layoutX="1142.0" layoutY="14.0" onAction="#showmenu" onMouseClicked="#showmenu" prefHeight="31.0" prefWidth="183.0" text="." />
+            <ImageView fitHeight="58.0" fitWidth="88.0" layoutX="6.0" layoutY="79.0" onMouseReleased="#plantsunflower" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@sunflower_coloured.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="56.0" fitWidth="88.0" layoutX="3.0" layoutY="147.0" onMouseReleased="#handle" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@peashooter_coloured.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="56.0" fitWidth="88.0" layoutX="6.0" layoutY="217.0" onMouseReleased="#plantwalnut" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@walnut_coloured.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="64.0" fitWidth="88.0" layoutX="5.0" layoutY="285.0" onMouseReleased="#plantcherrybomb" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cherrybomb_coloured.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="suncounter" layoutX="242.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50" textAlignment="CENTER" wrappingWidth="87.56362915039062">
+               <font>
+                  <Font name="Oswald Regular" size="30.0" />
+               </font>
+            </Text>
+            <ProgressBar fx:id="timer" layoutX="895.0" layoutY="17.0" prefWidth="200.0" progress="0.0" rotate="180.0" style="-fx-accent: #ff2323;" />
+         </children>
+      </Pane>
+      <ImageView fx:id="sunicon" fitHeight="105.0" fitWidth="109.0" onMouseClicked="#collectsun" pickOnBounds="true" preserveRatio="true" translateX="-100.0" translateY="-1400.0">
+         <image>
+            <Image url="@Sun.png" />
+         </image>
+      </ImageView>
+   </children>
+</StackPane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<StackPane fx:id="menustackpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pvz.Ingamemenucontroller">
+   <children>
+      <ImageView fitHeight="747.0" fitWidth="1424.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ingamemenu.jpeg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <JFXButton fx:id="backtogame" layoutX="622.0" layoutY="458.0" onAction="#handlebacktogame" prefHeight="44.0" prefWidth="158.0" style="-fx-text-fill: #1ca312;" text="Main Menu" textFill="WHITE">
+               <font>
+                  <Font name="Oswald Regular" size="22.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="quitbutton" layoutX="487.0" layoutY="400.0" onAction="#handlequitgame" prefHeight="50.0" prefWidth="158.0" style="-fx-text-fill: #1ca312;" text="Quit and Save" textFill="WHITE">
+               <font>
+                  <Font name="Oswald Regular" size="22.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="quitbutton1" layoutX="751.0" layoutY="400.0" onAction="#handlequitgame" prefHeight="50.0" prefWidth="158.0" style="-fx-text-fill: #1ca312;" text="Resume Game" textFill="WHITE">
+               <font>
+                  <Font name="Oswald Regular" size="22.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

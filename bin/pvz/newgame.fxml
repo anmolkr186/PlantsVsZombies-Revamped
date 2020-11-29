@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<StackPane fx:id="stackpane" prefHeight="150.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pvz.newgamecontroller">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="1400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@new_game_screen.png" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <TextField fx:id="gettext" layoutX="533.0" layoutY="262.0" prefHeight="52.0" prefWidth="362.0" />
+            <JFXButton fx:id="enterbutton" layoutX="624.0" layoutY="339.0" onAction="#handleenterbutton" opacity="0.0" prefHeight="52.0" prefWidth="179.0" text="Button" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
